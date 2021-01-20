@@ -1,0 +1,19 @@
+{
+  "name": "task-node-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "./node_modules/.bin/electron-rebuild.cmd"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-addon-api": "^3.1.0"
+  },
+  "devDependencies": {
+    "electron": "^11.2.0",
+    "electron-rebuild": "^2.3.4"
+  }
+}
